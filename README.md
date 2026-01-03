@@ -1,38 +1,28 @@
-# SCT_WD_1
-Task 01 focuses on building a basic web page using HTML, CSS, and JavaScript. This project strengthens foundational web development skills through simple layout, styling, and interactivity.
-🔹 Description
+📁 Files Description
+index.html
 
-This project is a part of my web development internship tasks.
-Task 01 focuses on building a basic web page using HTML, CSS, and JavaScript, with an emphasis on understanding core web development concepts such as structure, styling, and basic interactivity.
+Serves as the main entry point of the landing page.
 
-The objective of this task is to strengthen foundational skills in frontend development by creating a simple, responsive, and user-friendly web interface.
+Defines the structure of the webpage including the navigation bar and content sections.
 
-🔹 Key Features
+Links the external CSS file for styling and JavaScript file for interactivity.
 
-Structured layout using HTML
+Contains semantic HTML elements to improve readability and structure.
 
-Clean and responsive styling with CSS
+style.css
 
-Basic interactivity using JavaScript
+Handles the visual styling of the landing page.
 
-Beginner-friendly and easy to understand code
+Implements a fixed navigation bar with hover effects.
 
-🔹 Technologies Used
+Includes responsive design techniques to ensure compatibility across devices.
 
-HTML5
+Adds smooth transitions and layout styling for better user experience.
 
-CSS3
+script.js
 
-JavaScript
+Adds interactivity to the navigation bar.
 
-🔹 Learning Outcome
+Detects scrolling behavior and dynamically changes the navigation bar style.
 
-Improved understanding of web page structure
-
-Hands-on experience with styling and layouts
-
-Practical exposure to JavaScript for basic functionality
-
-🔹 Internship Task
-
-This task was completed as part of an internship program to practice and demonstrate fundamental web development skills.
+Enhances user engagement through scroll-based effects.
