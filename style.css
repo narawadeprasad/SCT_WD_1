@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f0f1a;
+  color: white;
+}
+
+/* Navbar */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  transition: 0.4s ease;
+  z-index: 1000;
+}
+
+header.scrolled {
+  background: #111827;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #22d3ee;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  position: relative;
+  transition: color 0.3s;
+}
+
+/* Hover effect */
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #22d3ee;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #22d3ee;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Sections */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  padding: 100px 50px;
+}
